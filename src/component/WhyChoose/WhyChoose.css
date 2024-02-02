@@ -1,0 +1,60 @@
+.chooseCard{
+    box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+}
+.ImgCover {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f6475f;
+    transition: 0.1s;
+    margin: 20px auto;
+    line-height: 6;
+}
+.ImgCover img{
+    width: 50px;
+    margin: auto;
+}
+#ic2 {
+    background-color: #ffbc06;
+}
+
+#ic3 {
+    background-color: #b3d369;
+}
+
+#ic4 {
+    background-color: #554da7;
+}
+
+#ic5 {
+    background-color: #4382ff;
+}
+
+#ic6 {
+    background-color: #f94fa4;
+}
+
+.ImgCover:hover {
+    outline: 5px solid #f6475f;
+    outline-offset: 2px;
+}
+
+#ic2:hover {
+    outline-color: #ffbc06;
+}
+
+#ic3:hover {
+    outline-color: #b3d369;
+}
+
+#ic4:hover {
+    outline-color: #554da7;
+}
+
+#ic5:hover {
+    outline-color: #4382ff;
+}
+
+#ic6:hover {
+    outline-color: #f94fa4;
+}

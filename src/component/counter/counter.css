@@ -1,0 +1,7 @@
+.CounterCover{
+    background-image: url('./img/counter_bg.jpg');
+    background-size: 100%;
+}
+.counter{
+    background-color: rgb(0, 51, 102,0.4);
+}

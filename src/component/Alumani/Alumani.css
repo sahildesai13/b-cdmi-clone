@@ -1,0 +1,20 @@
+.stdImg img{
+    width: 70px !important;
+    border-radius: 50%;
+}
+.AImgCover{
+    background-size: 100%;
+    position: relative;
+    z-index: 10;
+}
+.AImgCover::after {
+    position: absolute;
+    content: '';
+    background-image: url('./img/testimonial_shape.png');
+    top: 0%;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
